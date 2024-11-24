@@ -25,8 +25,8 @@
 **What are the things that a chatbot developer should take into consideration when designing a virtual agent persona? (Choose two):**  
 - ❌ The mental model  
 - ✅ **Brand characteristics**  
-- ✅ **User experience consistency**  
-- ❌ Key character traits  
+- ❌ User experience consistency 
+- ✅ **Key character traits ** 
 - ❌ Word choices  
 
 ---
