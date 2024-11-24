@@ -15,10 +15,10 @@
 **Which of the following are returned from the CCAI APIs through the telephony integration’s gRPC? (Choose three)**  
 - ❌ The caller’s geolocation  
 - ❌ The caller’s IP Address  
-- ✅ **The caller’s audio stream**  
+- ❌ The caller’s audio stream**  
 - ✅ **Programmatic events that change the conversation state**  
 - ✅ **Session parameters**  
-- ❌ Start of speech detection  
+- ✅ **Start of speech detection**
 
 ---
 
@@ -28,9 +28,9 @@
 - ✅ **Check that auto speech adaptation is enabled, then make sure the agent’s training phrases and entities contain the phrases the users are actually saying.**  
 - ✅ **Configure a different Google speech model better suited for my use-case.**  
 - ❌ Be patient. Google models will eventually adapt to my users’ speech and my use-case.  
-- ❌ Enable call companions to offer users an alternative input method.  
+- ✅ **Enable call companions to offer users an alternative input method.**  
 - ❌ There’s nothing I can do without implementing my own speech recognition.  
-
+- ✅ **Ensure that I collect alpha/numeric sequences (like 12345678 or ABCD1234) through form-filling.**
 ---
 
 ## Question 4  
@@ -57,7 +57,7 @@
 - ✅ **Contact my integration owner for troubleshooting any networking or other processing issues.**  
 - ❌ Enable advanced timeout-based endpointing and decrease the sensitivity slider.  
 - ✅ **Specify a different speech model.**  
-- ✅ **My integration offers an option to specify the maximum number of seconds to wait after a user speaks.**  
+- ❌ My integration offers an option to specify the maximum number of seconds to wait after a user speaks.
 - ✅ **Enable advanced timeout-based endpointing and increase the sensitivity slider.**  
 
 ---
